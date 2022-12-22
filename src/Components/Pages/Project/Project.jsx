@@ -1,5 +1,5 @@
 import React from "react";
-
+import Imagegallery from "./Pieces/Project_img.json";
 
 
 
@@ -9,9 +9,24 @@ const Project = () => {
 
     return (
         <React.Fragment>
-            <p>Project page</p>
+            <div>
+                {
+                    Imagegallery && Imagegallery.map((img, index) => {
+                        return (
+                            <ul>
+                                <li key={index} >
+                                    <img src={img.projectimage} alt={img.alt} />
+                                    <br />
+                                    {img.caption}
+                                </li>
+                            </ul>
+                        )
+
+                    })
+                }
+            </div>
         </React.Fragment>
     )
 }
 
-export default Project;
+export default Project; 
