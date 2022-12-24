@@ -42,7 +42,7 @@ const Navbar = () => {
                     <ul className='hidden md:flex flex items-center transition duration-500 ease-in-out'>
                         {
                             Links.map((link) => (
-                                <li key={link.name} className='p-4'>
+                                <li key={link.name} className='p-4 text-lg'>
                                     <NavLink to={link.link} className={({ isActive }) => (isActive ? 'text-red-600' : 'text-black')}>{link.name}</NavLink>
                                 </li>
                             ))
