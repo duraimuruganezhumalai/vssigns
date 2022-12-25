@@ -1,5 +1,5 @@
 import React from "react";
-
+// import contactusbg from "../../../Assets/Contactus/abstract-Wallpaper.jpg"
 
 
 
@@ -44,7 +44,7 @@ const Contactus = () => {
                                         </svg>
                                     </div>
                                     <div className="w-full">
-                                        <h4 className="text-dark mb-1 text-xl font-bold">Our Location</h4>
+                                        <h4 className="text-red-600 mb-1 text-xl font-bold">Our Location</h4>
                                         <p className="text-body-color text-base">
                                             99 S.t Jomblo Park Pekanbaru 28292. Indonesia
                                         </p>
@@ -72,7 +72,7 @@ const Contactus = () => {
                                         </svg>
                                     </div>
                                     <div className="w-full">
-                                        <h4 className="text-dark mb-1 text-xl font-bold">Phone Number</h4>
+                                        <h4 className="text-red-600 mb-1 text-xl font-bold">Phone Number</h4>
                                         <p className="text-body-color text-base">(+62)81 414 257 9980</p>
                                     </div>
                                 </div>
@@ -92,14 +92,18 @@ const Contactus = () => {
                                         </svg>
                                     </div>
                                     <div className="w-full">
-                                        <h4 className="text-dark mb-1 text-xl font-bold">Email Address</h4>
+                                        <h4 className="text-red-600 mb-1 text-xl font-bold">Email Address</h4>
                                         <p className="text-body-color text-base">info@yourdomain.com</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-                            <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
+
+
+                        <div className="bg-orange-300 rounded-sm w-full px-4 lg:w-1/2 xl:w-5/12">
+                            {/* <img className="absolute w-full" src={contactusbg} size="" alt="contactus-bg" /> */}
+                            {/* <div class="" style="background-image: url(../../../Assets/Contactus/abstract-Wallpaper.jpg)"></div> */}
+                            <div className="relative rounded-lg p-8 shadow-lg sm:p-12">
                                 <form>
                                     <div className="mb-6">
                                         <input
@@ -132,7 +136,7 @@ const Contactus = () => {
                                     <div>
                                         <button
                                             type="submit"
-                                            className="bg-primary border-primary w-full rounded border p-3 text-red-600 transition hover:bg-opacity-90"
+                                            className="bg-black border-primary w-full rounded p-3 text-red-600 transition hover:bg-opacity-90"
                                         >
                                             Send Message
                                         </button>
@@ -143,6 +147,14 @@ const Contactus = () => {
                     </div>
                 </div>
             </section>
+
+
+
+
+
+
+
+
         </React.Fragment >
     )
 }

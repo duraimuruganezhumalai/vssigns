@@ -13,8 +13,8 @@ const Banner = () => {
             />
             <div className='absolute w-full h-full top-0 left-0 bg-gray-900/30'></div>
             <div className='absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4'>
-                <h1>Chennai Latest Signage</h1>
-                <h2 className='py-4'>Perfect finishing</h2>
+                <h1 className='text-3xl font-extrabold tracking-tight'>Chennai Latest Signage</h1>
+                <h2 className='text-3xl font-extrabold tracking-tight py-4'>Perfect finishing</h2>
             </div>
         </div>
     );

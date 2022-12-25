@@ -5,7 +5,12 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { FaBars } from "react-icons/fa";
 import { Fade as Hamburger } from 'hamburger-react'
 import { VscChromeClose } from "react-icons/vsc";
-import applogo from "../../Assets/Navbar/logo192.png"
+import applogo from "../../Assets/Navbar/Logo.png"
+import { Link } from "react-router-dom";
+
+
+
+
 
 
 const Navbar = () => {
@@ -34,11 +39,11 @@ const Navbar = () => {
             <div className="flex justify-center">
                 <div className='flex w-full justify-between items-center bg-white shadow h-15 fixed z-10 px-4'>
                     {/* <div className='flex w-full justify-between h-20 px-4 fixed'> */}
-                    <div className="flex flex-row">
+                    <Link to="/" className="flex flex-row">
                         {/* <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>Vssigns</h1> */}
-                        <img className="mr-2" src={applogo} alt="app-logo" width={30} />
+                        <img className="mr-2" src={applogo} alt="app-logo" width={20} />
                         <h1 className={logo ? 'hidden' : 'block'} >Vssigns</h1>
-                    </div>
+                    </Link>
                     <ul className='hidden md:flex flex items-center transition duration-500 ease-in-out'>
                         {
                             Links.map((link) => (
