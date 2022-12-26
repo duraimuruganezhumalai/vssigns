@@ -100,7 +100,7 @@ const Contactus = () => {
                         </div>
 
 
-                        <div className="bg-orange-300 rounded-sm w-full px-4 lg:w-1/2 xl:w-5/12">
+                        <div className="rounded-sm w-full px-4 lg:w-1/2 xl:w-5/12">
                             {/* <img className="absolute w-full" src={contactusbg} size="" alt="contactus-bg" /> */}
                             {/* <div class="" style="background-image: url(../../../Assets/Contactus/abstract-Wallpaper.jpg)"></div> */}
                             <div className="relative rounded-lg p-8 shadow-lg sm:p-12">
@@ -136,7 +136,7 @@ const Contactus = () => {
                                     <div>
                                         <button
                                             type="submit"
-                                            className="bg-black border-primary w-full rounded p-3 text-red-600 transition hover:bg-opacity-90"
+                                            className="bg-red-600  border-primary w-full rounded p-3 text-white transition hover:bg-opacity-90"
                                         >
                                             Send Message
                                         </button>
