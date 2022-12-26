@@ -4,6 +4,7 @@ import Banner from "./Pieces/Banner"
 import Facility from "./Pieces/Facility";
 import Happycustomers from "./Pieces/Happycustomers";
 import Ourclients from "./Pieces/Ourclients";
+import Testimonials from "./Pieces/Testimonials";
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Ourclients />
             <Facility />
             <Happycustomers />
+            <Testimonials />
         </React.Fragment>
     )
 }

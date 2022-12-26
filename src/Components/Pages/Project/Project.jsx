@@ -77,8 +77,8 @@ const Project = () => {
 
     return (
         <React.Fragment>
-            <section className="relative w-full overflow-hidden bg-white py-20 lg:py-[120px]">
-            <Tittlesection />
+            <section className="relative w-full overflow-hidden bg-white">
+                <Tittlesection />
                 <div className="container mx-auto">
                     <Galleryimg galleryImages={galleryImages} />
                 </div>

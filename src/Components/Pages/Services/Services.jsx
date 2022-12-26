@@ -1,4 +1,5 @@
 import React from "react";
+import Aboutservices from "./Pieces/Aboutservices";
 
 
 
@@ -10,6 +11,9 @@ const Services = () => {
 
     return (
         <React.Fragment>
+            <Aboutservices />
+
+
             <div className="container mx-auto">
 
                 <section className="py-8">
