@@ -57,7 +57,7 @@ const Galleryimg = ({ galleryImages }) => {
             }
 
 
-            <div className="px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+            <div className="px-5 py-2 mx-auto lg:pt-12 lg:px-32 lg:pb-[80px]">
                 <div className="flex justify-center flex-wrap -m-1 md:-m-2">
                     {
                         galleryImages && galleryImages.map((slide, index) => {
@@ -70,7 +70,7 @@ const Galleryimg = ({ galleryImages }) => {
                                 >
                                     {/* <div className=" w-full p-1 md:p-2"> */}
                                     <img
-                                        className="block object-cover object-center w-full h-full transition-all duration-300 filter grayscale hover:grayscale-0"
+                                        className="block object-cover object-center w-full h-full transition-all duration-300 filter"
                                         src={slide.img}
                                         alt={slide.alt}
                                         onClick={() => handleOpenModal(index)}

@@ -24,7 +24,7 @@ const Tittlesection = () => {
                     <h1 className="font-bold text-darken mb-6 text-3xl">About Us <span className="text-red-600">Why work with us</span></h1>
                     <p className="leading-relaxed text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum hic, iusto officiis cumque at sint rerum fuga repudiandae quia quod enim ipsam adipisci dignissimos recusandae vitae voluptatum, autem nemo voluptatem! Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office.</p>
                 </div> */}
-            <section className="bg-white dark:bg-gray-900 lg:py-[80px]">
+            <section className="bg-white dark:bg-gray-900 lg:pt-[80px]">
                 <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6">
                     <div className="mx-auto mb-8 text-center lg:mb-12">
                         <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Our Projects</h2>
